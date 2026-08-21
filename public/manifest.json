@@ -1,14 +1,14 @@
 {
-  "name": "Cao Khắc Minh",
-  "short_name": "Minh",
+  "name": "Bùi Hữu Lộc",
+  "short_name": "Lộc",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFF0F5",
   "theme_color": "#ff99cc",
-  "description": "Ừ, tao bắt cóc thằng Ba rồi thay nó làm chú rể đó rồi sao?",
+  "description": ""Ngoan ngoãn đẻ cho họ Bùi đứa con trai, rồi cầm tiền mà cút."",
   "icons": [
     {
-      "src": "https://lh3.googleusercontent.com/u/0/d/1laf8bUmZlCgzGqzUOyQNsbkF8TVopAaK",
+      "src": "https://lh3.googleusercontent.com/u/0/d/1hp_spHbRBmaQQ7hVf52qtHLV_Vn4WGWr",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
