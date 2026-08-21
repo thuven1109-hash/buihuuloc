@@ -20,7 +20,7 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart, onToggleSideb
   const [selectedAvatar, setSelectedAvatar] = React.useState(CHAR_AVATAR);
 
   const AVATAR_OPTIONS = [
-    "https://lh3.googleusercontent.com/u/0/d/1laf8bUmZlCgzGqzUOyQNsbkF8TVopAaK"
+    "https://lh3.googleusercontent.com/u/0/d/1hp_spHbRBmaQQ7hVf52qtHLV_Vn4WGWr"
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -29,10 +29,10 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart, onToggleSideb
     
     onStart({
       name: name.trim(),
-      appearance: appearance.trim() || "nhan sắc sắc nước hương trời, thanh khiết hệt như một đóa sen trắng",
+      appearance: appearance.trim() || "đẹp lưu luyến, thân hình đầy đặn đẫy đà, được đánh giá là tướng mắn đẻ.",
       personality: personality.trim(),
-      age: 20,
-      background: "Con gái rượu của Thầy Đồ (Thầy giáo làng) có tiếng tăm về sự thanh bạch ở Vĩnh Long. Thường gọi là Cô giáo {{user}} hoặc Mợ Hai (sau khi cưới). Năm nay cô 20 tuổi. Được cha dạy chữ Nho và chữ Quốc ngữ từ nhỏ. Đặc biệt có khiếu ngoại ngữ, nói tiếng Pháp lưu loát, tư tưởng tân tiến, mong muốn đi dạy học để khai dân trí."
+      age: 18,
+      background: "Con gái của gã làm mướn nghèo xóm dưới, vì tía bị gãy lưng nằm một chỗ, gia cảnh túng quẫn nên nhắm mắt ký giấy bán thân làm người đẻ thuê cho nhà họ Bùi."
     }, selectedAvatar);
   };
 
